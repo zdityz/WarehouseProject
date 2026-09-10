@@ -39,11 +39,3 @@ npm install               # or bun install
 cp .env.example .env      # VITE_API_URL — defaults to http://localhost:8000
 npm run dev                # or bun dev
 ```
-
-## The contract
-
-`docs/event_schema.md` is the source of truth for event fields. Don't change
-it without agreeing with the whole team — everyone builds against it.
-
-`docs/api_contract.md` lists the functions Person B exposes and the
-endpoints Person C wraps them in.
